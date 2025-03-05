@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dragon Nest Patch</title>
+<style>
+	  .red-text {
+    color: rgba(47, 71, 108, 1);
+  }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('main.png'); /* Используйте URL вашей картинки */
+        background-size: cover; /* Заполняет весь фон */
+        background-position: center; /* Центрирует изображение */
+        color: rgb(0, 0, 0); /* Цвет текста */
+        display: flex;
+        justify-content: center; /* Центрирование по горизонтали */
+        align-items: center; /* Центрирование по вертикали */
+        height: 100vh; /* Высота вьюпорта */
+        flex-direction: column; /* Вертикальное выравнивание */
+    }
+    h1 {
+        text-align: center;
+    }
+    .title {
+        font-size: 2.5em; /* Размер заголовка */
+        margin-bottom: 20px; /* Отступ снизу */
+    }
+    .patch-note {
+      background-color: #4470AF; /* Цвет фона кнопки */
+  color: white; /* Цвет текста кнопки */
+  padding: 10px 20px; /* Внутренние отступы кнопки */
+  border: 2px solid #2E5788; /* Обводка кнопки */
+  border-radius: 5px; /* Скругление углов кнопки */
+  text-decoration: none; /* Убираем подчеркивание ссылки */
+  display: inline-block; /* Делаем кнопку блочным элементом */
+  transition: background-color 0.3s; /* Плавный переход при наведении */
+}
+    .patch-note:hover {
+  background-color: #2E5788; /* Цвет фона при наведении */
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    .button:hover {
+        background-color: rgba(255, 255, 255, 1);
+    }
+    .search-container {
+        margin-bottom: 20px; /* Отступ снизу для контейнера поиска */
+    }
+    .search-input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 300px; /* Ширина поля поиска */
+    }
+    .search-button {
+        padding: 10px 15px;
+        margin-left: 5px;
+        border: none;
+        background-color: #007BFF; /* Цвет кнопки */
+        color: white;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .search-button:hover {
+        background-color: #0056b3; /* Цвет кнопки при наведении */
+    }
+	display: flex;
+            justify-content: flex-end; /* Выравнивание по правому краю */
+            align-items: flex-start; /* Выравнивание по верхнему краю */
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .swing-container {
+            position: relative; /* Позволяет позиционировать дочерние элементы */
+        }
+
+        .swing-image {
+            width: 300px; /* Задайте нужный размер изображения */
+            position: absolute; /* Позволяет фиксировать изображение в одном месте */
+            top: -5%; /* Положение сверху */
+            right: 5%; /* Положение справа */
+            transform: translateY(0) rotate(0deg); /* Начальное положение */
+            animation: swing 5s infinite; /* Примените анимацию */
+            transform-origin: top  /* Устанавливаем точку вращения */
+        }
+
+        @keyframes swing {
+            0% { transform: translateY(0) rotate(5deg); }
+            50% { transform: translateY(0) rotate(-5deg); }
+            100% { transform: translateY(0) rotate(5deg); }
+        }
+    </style>
+</head>
+    <div class="swing-container">
+        <img src="1.png" alt="Картинка" class="swing-image">
+    </div>
+
+<div class="container">
+    <h1 class="title" class="red-text">Dragon Nest Patch Balance</h1>
+    <div class="search-container">
+        <input type="text" class="search-input" placeholder="Поиск...">
+        <button class="search-button">Найти</button>
+    </div>
+    <div class="patch-note">
+        <a href="patch1.html">2024.03.07</a>
+    </div>
+    <div class="patch-note">
+        <a href="patch2.html">2024.04.04</a>
+    </div>
+	
+</div>
+</html>
