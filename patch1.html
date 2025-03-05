@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024.03.07</title>
+    <style>
+        .spaced-image {
+            margin-top: 20px; /* Отступ сверху */
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url('main.png'); /* Используйте URL вашей картинки */
+        background-size: cover; /* Заполняет весь фон */
+        background-position: center; /* Центрирует изображение */
+        }
+        h1 {
+            text-align: center;
+        }
+        h3 {
+            margin-top: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        hr {
+            border: 1px solid #ccc;
+    }
+	display: flex;
+            justify-content: flex-end; /* Выравнивание по правому краю */
+            align-items: flex-start; /* Выравнивание по верхнему краю */
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        .swing-container {
+            position: relative; /* Позволяет позиционировать дочерние элементы */
+        }
+
+        .swing-image {
+            width: 300px; /* Задайте нужный размер изображения */
+            position: absolute; /* Позволяет фиксировать изображение в одном месте */
+            top: -5%; /* Положение сверху */
+            right: 5%; /* Положение справа */
+            transform: translateY(0) rotate(0deg); /* Начальное положение */
+            animation: swing 5s infinite; /* Примените анимацию */
+            transform-origin: top  /* Устанавливаем точку вращения */
+        }
+
+        @keyframes swing {
+            0% { transform: translateY(0) rotate(5deg); }
+            50% { transform: translateY(0) rotate(-5deg); }
+            100% { transform: translateY(0) rotate(5deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="swing-container">
+        <img src="1.png" alt="Картинка" class="swing-image">
+<body>
+    <h1>2024.03.07</h1>
+    <hr>
+    <ul>
+        <li>PVE
+            <ul>
+                <li>Gearmaster&nbsp;<img src="35 copy.png" width="25" height="25" alt="" style="position: relative; top: 7px;"/></li>
+                <li>Flurry</li>
+                <li>Stingbreezer</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h3>Gearmaster</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Skill</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Class Mastery I</td>
+                <td>Skill specifications have changed. Removed the spec for “Extreme Tower” that increased the character's damage by 30% for 5 seconds. Added a spec that unifies the character's Attack Damage with the highest number of attributes. Added a spec that increases the character's Attack Damage by 30%.</td>
+            </tr>
+            <tr>
+                <td>Class Mastery III</td>
+                <td>Removed the spec that unified the highest Attribute Attack.</td>
+            </tr>
+            <tr>
+                <td>[Awakening Passive] Big Mecha Boomers</td>
+                <td>Finishing damage dealt to enemies with [Subdued] status has been increased. 100% → 130</td>
+            </tr>
+            <tr>
+                <td>Auto Pump</td>
+                <td>Self-destruct damage for a single Mecha Duck increased. 204% → 501%</td>
+            </tr>
+            <tr>
+                <td>Flag Cannon</td>
+                <td>- Skill damage increased by 20%. 15243% → 18292%</td>
+            </tr>
+            <tr>
+                <td>Full Mech Swing</td>
+                <td>Slightly increased the explosive range of Mecha Duck Bombs.</td>
+            </tr>
+            <tr>
+                <td>Mecha Duck Ride!</td>
+                <td>The cast time of the skill has been reduced. Reduced the distance the character travels when using the skill. The damage of the skill remains unchanged. The invulnerability specification during skill casting remains the same.</td>
+            </tr>
+            <tr>
+                <td>Mecha Duck EX</td>
+                <td>Slightly increased the amount of Heroic Skill Gauge gained. 2.03% → 2.74%</td>
+            </tr>
+            <tr>
+                <td>Mecha Boomers EX</td>
+                <td>Slightly increased the amount of Heroic Skill Gauge earned. 9.46% → 10.13%</td>
+            </tr>
+            <tr>
+                <td>Big Mecha Boomers EX</td>
+                <td>Slightly increased the amount of Heroes Skill Gauge earned. 13.50% → 14.18%</td>
+            </tr>
+            <tr>
+                <td>Rolling Bazooka</td>
+                <td>Slightly reduced the skill's lag.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
